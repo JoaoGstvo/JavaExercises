@@ -2,11 +2,11 @@ public class BFE2 {
     public static void main(String[] args) {
         System.out.println("Hello World");
 
-        double result = ConvertRealToDollar(10, 0);
+        double result = convertRealToDollar(10, 0);
         System.out.printf("%.2f", result);
     }
 
-    static double ConvertRealToDollar( double real, double dollar) {
+    static double convertRealToDollar( double real, double dollar) {
         return real / 5.19;
     }
 }

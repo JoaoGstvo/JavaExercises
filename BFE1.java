@@ -7,11 +7,11 @@ public class BFE1 {
         System.out.println("Hello World");
 
 
-        double result = ConvertKgToG(5, 0);
+        double result = convertKgToG(5, 0);
         System.out.println(result);
     }
 
-    static double ConvertKgToG(double kg, double g) {
+    static double convertKgToG(double kg, double g) {
         return kg * 1000;
     }
     
